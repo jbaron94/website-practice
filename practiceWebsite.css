@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+div.gallery {
+    display: inline-block;
+    border: 10px solid;
+    border-color: white;
+    font-size: 18px;
+    padding: 5px;
+    justify-content: center;
+    width: 450px;
+    margin-left: 205px;
+    color: #000000;
+
+}
+
+body {
+    background-color: #0BF1C8;
+    font-size: 18px;
+    color: red;
+}
+
+.section {
+    padding: 5px;
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.navigation {
+position: relative;
+background-color: white;
+ height: 50px;
+ padding: 0;
+ margin: 0;
+
+}
+
+nav ul {
+    width: 600px;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 150px;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #0BF1C8;
+    color: white;
+
+}
+
+.issues {
+    margin-top: 25px;
+    margin-left: 50px;
+    color: red;
+}
+
+.issues a:hover {
+    background-color: white;
+    color: red;
+}
+
+.form {
+    width: 650px;
+    padding: 5px;
+}
+
+div textarea {
+    width: 450px;
+    height: 200px;
+}
+
+div button {
+    width: 100px;
+    height: 25px;
+}
